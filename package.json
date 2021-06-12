@@ -14,7 +14,15 @@
   "author": "Federico Llano <llanofederico@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-food": "./bin/global.js"
+    "random-food": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plexor-dev/npm-random-food.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Plexor-dev/npm-random-food/issues"
+  },
+  "homepage": "https://github.com/Plexor-dev/npm-random-food#readme"
 }
