@@ -42,6 +42,28 @@ const randomFood = () => {
     console.log(comida);
 }
 
+/*A better code to add in the future, No undefined
+
+const comidasArgentinas = [
+    "Ñoquis",
+    "Empanadas",
+    "Lasaña",
+    "Hamburguesa",
+    "buñuelos",
+    "Guiso",
+    "Asado",
+    "Fideos a la boloniesa ñ",
+    "Locro"
+]
+
+const randomFood = () => {
+    const comida = comidasArgentinas[Math.floor(Math.random() * comidasArgentinas.length)];
+    return comida;
+}
+
+randomFood()
+
+*/
 
 //without the exports module 😋
 ```
