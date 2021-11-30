@@ -12,6 +12,38 @@ npm i random-food
 
 ```bash
 random-food
+
+🧉Example of use
+/*
+const ran = require('random-food');
+
+let ran2 = ram.randomFood()
+
+console.log(ram2)
+*/
+
+
+🎲THE CODE INSIDE OF RANDOM
+
+const comidasArgentinas = [
+    "Ñoquis",
+    "Empanadas",
+    "Lasaña",
+    "Hamburguesa",
+    "buñuelos",
+    "Guiso",
+    "Asado",
+    "Fideos a la boloniesa ñ",
+    "Locro"
+]
+
+const randomFood = () => {
+    const comida = comidasArgentinas[Math.floor(Math.random() * comidasArgentinas.length)];
+    console.log(comida);
+}
+
+
+//without the exports module 😋
 ```
 
 # Contributing
